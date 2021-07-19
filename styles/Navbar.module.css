@@ -1,0 +1,60 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 0 3rem 0;
+}
+
+.title {
+  margin: 0;
+  font-size: 4rem;
+  color: #b600f3;
+  text-decoration: none;
+}
+
+.title:hover,
+.title:focus,
+.title:active {
+  color: #b600f3c9;
+  cursor: default;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  align-self: center;
+  margin: 0 0 2rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #b600f3;
+  font-size: larger;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+}
+
+@media all and (max-width: 600px) {
+  .title {
+    font-size: 3rem;
+  }
+  .description {
+    font-size: 1rem;
+  }
+}
